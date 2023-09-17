@@ -41,3 +41,17 @@ img {
     margin-top: 2rem;
     background-color: lightcoral;
 }
+
+.nav {
+    width: 30vw;
+    margin: 4rem auto 0;
+}
+
+.list-container {
+    text-align: center;
+}
+
+.list-container ul {
+    display: inline-block;
+    text-align: left;
+}
