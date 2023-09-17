@@ -1,6 +1,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     margin: 40px 100px;
+    box-sizing: border-box;
 }
 
 li {
@@ -16,6 +17,27 @@ li {
 }
 
 img {
-    height: 20rem;
-    width: auto;
+    width: 50%;
+    height: auto;
+}
+
+.des-ing-container {
+}
+
+.first-container,
+.second-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4rem;
+    border-radius: 4rem;
+}
+
+.first-container {
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.second-container {
+    margin-top: 2rem;
+    background-color: lightcoral;
 }
